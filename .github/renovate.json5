@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>bkeryan/python-renovate-config2:recommended"
+    "local>ni/python-renovate-config:recommended"
   ]
 }
