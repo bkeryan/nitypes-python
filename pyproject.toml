@@ -43,7 +43,7 @@ numpy = [
   { version = ">=2.1", python = "^3.13" }
 ]
 hightime = { version = ">=0.2.2", allow-prereleases = true }
-typing-extensions = ">=4.13.2"
+typing-extensions = "4.16.0"
 
 [tool.poetry.group.dev.dependencies]
 # Specify additional NumPy version constraints to speed up locking and test with binary wheels that support PyPy.
@@ -57,19 +57,19 @@ numpy = [
 
 [tool.poetry.group.lint.dependencies]
 bandit = { version = ">=1.7", extras = ["toml"] }
-ni-python-styleguide = ">=0.4.1"
-mypy = { version = ">=1.18.1", markers = "implementation_name != 'pypy'" }
-pyright = { version = ">=1.1.400", extras = ["nodejs"] }
+ni-python-styleguide = "0.5.2"
+mypy = { version = "2.4.0", markers = "implementation_name != 'pypy'" }
+pyright = { version = "1.1.414", extras = ["nodejs"] }
 
 [tool.poetry.group.test.dependencies]
 pytest = ">=7.2"
-pytest-benchmark = ">=5.1"
+pytest-benchmark = "5.3.0"
 pytest-cov = ">=4.0"
 pytest-doctestplus = ">=1.4"
-pytest-mock = ">=3.0"
+pytest-mock = "3.17.0"
 # Uncomment to use an unreleased version of hightime for testing.
 # hightime = { git = "https://github.com/ni/hightime.git" }
-tomlkit = ">=0.11.0"
+tomlkit = "0.15.2"
 tzlocal = ">=5.0"
 
 [tool.poetry.group.docs]
@@ -83,10 +83,10 @@ Sphinx = [
   { version = ">=8.2", python = "^3.11" },
 ]
 sphinx-rtd-theme = ">=1.0.0"
-sphinx-autoapi = ">=1.8.4"
+sphinx-autoapi = "3.8.1"
 m2r2 = ">=0.3.2"
 toml = ">=0.10.2"
-tomlkit = ">=0.11.0"
+tomlkit = "0.15.2"
 
 [tool.ni-python-styleguide]
 extend_exclude = "docs"
