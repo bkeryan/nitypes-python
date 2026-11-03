@@ -1,6 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "local>bkeryan/python-renovate-config#users/bkeryan/fix-unwanted-pinning:recommended"
+        "local>bkeryan/python-renovate-config:recommended#f4c2077c84a77f7a79bbad91acb891923025886b"
     ]
 }
