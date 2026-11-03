@@ -1,6 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "local>bkeryan/python-renovate-config:recommended#f4c2077c84a77f7a79bbad91acb891923025886b"
+        "local>bkeryan/python-renovate-config:recommended#03d714b64c39ade3ea0b8d9dbed81deca960b843"
     ]
 }
